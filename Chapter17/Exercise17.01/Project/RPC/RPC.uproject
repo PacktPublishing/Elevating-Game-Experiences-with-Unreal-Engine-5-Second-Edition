@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.0",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "RPC",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
