@@ -26,18 +26,12 @@ protected:
 
 	UPROPERTY(EditAnywhere, Category = "Input")
 	class UInputAction* IA_Sprint;
-	
-	UPROPERTY(EditAnywhere, Category = "Input")
-	class UInputAction* IA_Throw;
 
 	//Sprinting
 	void Sprint();
 
 	//Stop Sprinting
 	void StopSprinting();
-
-	//Throw projectile
-	void ThrowProjectile();
 
 private:
 	//Bool to control if we are sprinting. Failsafe.
