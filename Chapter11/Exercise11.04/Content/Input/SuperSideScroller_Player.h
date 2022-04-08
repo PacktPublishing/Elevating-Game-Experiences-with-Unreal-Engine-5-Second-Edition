@@ -14,11 +14,4 @@ class SUPERSIDESCROLLER_API ASuperSideScroller_Player : public ASuperSideScrolle
 {
 	GENERATED_BODY()
 	
-	//Constructor
-	ASuperSideScroller_Player();
-
-protected:
-	//Override base character class function to set up our player input component
-	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
-	
 };
