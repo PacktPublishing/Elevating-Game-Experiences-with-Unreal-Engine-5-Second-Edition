@@ -20,27 +20,5 @@ class SUPERSIDESCROLLER_API ASuperSideScroller_Player : public ASuperSideScrolle
 protected:
 	//Override base character class function to set up our player input component
 	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
-
-	UPROPERTY(EditAnywhere, Category = "Input")
-	class UInputMappingContext* IC_Character;
-
-	UPROPERTY(EditAnywhere, Category = "Input")
-	class UInputAction* IA_Sprint;
-	
-	UPROPERTY(EditAnywhere, Category = "Input")
-	class UInputAction* IA_Throw;
-
-	//Sprinting
-	void Sprint();
-
-	//Stop Sprinting
-	void StopSprinting();
-
-	//Throw projectile
-	void ThrowProjectile();
-
-private:
-	//Bool to control if we are sprinting. Failsafe.
-	bool bIsSprinting;
 	
 };
