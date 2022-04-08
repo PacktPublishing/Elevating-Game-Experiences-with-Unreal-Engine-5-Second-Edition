@@ -34,9 +34,6 @@ void ASuperSideScroller_Player::SetupPlayerInputComponent(UInputComponent* Playe
 
 		//Bind released action Sprint to your StopSprinting function
 		EnhancedPlayerInput->BindAction(IA_Sprint, ETriggerEvent::Completed, this, &ASuperSideScroller_Player::StopSprinting);
-
-		//Bind the pressed action Throw to your ThrowProjectile function
-		EnhancedPlayerInput->BindAction(IA_Throw, ETriggerEvent::Triggered, this, &ASuperSideScroller_Player::ThrowProjectile);
 	}
 }
 
