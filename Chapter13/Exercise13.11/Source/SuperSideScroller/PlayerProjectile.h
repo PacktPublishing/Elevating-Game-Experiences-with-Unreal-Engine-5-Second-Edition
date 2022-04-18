@@ -31,7 +31,7 @@ private:
 	class UProjectileMovementComponent* ProjectileMovement; 
 
 	//Static mesh component 
-	UPROPERTY(VisibleDefaultsOnly, Category = Projectile) 
+	UPROPERTY(EditAnywhere, Category = Projectile) 
 	class UStaticMeshComponent* MeshComp; 
 
 };
