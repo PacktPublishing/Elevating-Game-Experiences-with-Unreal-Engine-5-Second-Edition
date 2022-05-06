@@ -40,7 +40,9 @@ protected:
 
 	//Throw projectile
 	void ThrowProjectile();
-
+	
+public:
+	
 	void SpawnProjectile();
 
 private:
