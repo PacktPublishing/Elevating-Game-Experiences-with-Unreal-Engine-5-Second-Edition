@@ -18,7 +18,7 @@ protected:
 
 	virtual void BeginPlay() override;
 
-	virtual void PlayerPickedUp(class ASuperSideScroller_Player* Player);
+	virtual void PlayerPickedUp(class ASuperSideScroller_Player* Player) override;
 
 public:
 	
