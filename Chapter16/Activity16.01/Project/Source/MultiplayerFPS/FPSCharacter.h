@@ -35,16 +35,16 @@ protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "FPS Character")
 	USoundBase* SpawnSound = nullptr;
 
-	UPROPERTY(EditAnywhere, Category = Input)
+	UPROPERTY(EditDefaultsOnly, Category = Input)
 	class UInputMappingContext* InputMappingContext;
 
-	UPROPERTY(EditAnywhere, Category = Input)
+	UPROPERTY(EditDefaultsOnly, Category = Input)
 	class UInputAction* MoveInputAction;
 
-	UPROPERTY(EditAnywhere, Category = Input)
+	UPROPERTY(EditDefaultsOnly, Category = Input)
 	class UInputAction* LookInputAction;
 
-	UPROPERTY(EditAnywhere, Category = Input)
+	UPROPERTY(EditDefaultsOnly, Category = Input)
 	class UInputAction* JumpInputAction;
 
 	AFPSCharacter();
@@ -55,6 +55,8 @@ protected:
 
 	void Move(const FInputActionValue& Value);
 	void Look(const FInputActionValue& Value);
+	
+public:
 
 	void AddHealth(float Amount) { SetHealth(Health + Amount); }
 	void RemoveHealth(float Amount) { SetHealth(Health - Amount); }

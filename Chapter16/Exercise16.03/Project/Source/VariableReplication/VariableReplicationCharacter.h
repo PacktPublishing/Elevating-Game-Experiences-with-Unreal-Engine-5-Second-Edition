@@ -3,7 +3,6 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Net/UnrealNetwork.h"
 #include "GameFramework/Character.h"
 #include "VariableReplicationCharacter.generated.h"
 

@@ -1,8 +1,6 @@
 #include "OwnershipTestActor.h"
-#include "DrawDebugHelpers.h"
 #include "OwnershipRoles.h"
 #include "OwnershipRolesCharacter.h"
-#include "Components/StaticMeshComponent.h"
 #include "Kismet/GameplayStatics.h"
 
 AOwnershipTestActor::AOwnershipTestActor()
