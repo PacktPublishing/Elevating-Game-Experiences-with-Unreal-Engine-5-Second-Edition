@@ -21,8 +21,6 @@ APickableActor_Base::APickableActor_Base()
 	MeshComp->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 
 	RotationComp = CreateDefaultSubobject<URotatingMovementComponent>(TEXT("RotationComp"));
-
-	CollisionComp->OnComponentBeginOverlap.AddDynamic(this, &APickableActor_Base::BeginOverlap);
 }
 
 void APickableActor_Base::PlayerPickedUp(ASuperSideScroller_Player* Player)
@@ -50,6 +48,6 @@ void APickableActor_Base::BeginOverlap(UPrimitiveComponent* OverlappedComp, AAct
 void APickableActor_Base::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	CollisionComp->OnComponentBeginOverlap.AddDynamic(this, &APickableActor_Base::BeginOverlap);
 }
 
