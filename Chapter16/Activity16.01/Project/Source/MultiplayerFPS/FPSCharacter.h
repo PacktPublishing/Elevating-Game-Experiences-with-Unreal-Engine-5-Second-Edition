@@ -49,8 +49,7 @@ protected:
 
 	AFPSCharacter();
 	
-	virtual void BeginPlay() override;
-	
+	virtual void BeginPlay() override;	
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	void Move(const FInputActionValue& Value);
