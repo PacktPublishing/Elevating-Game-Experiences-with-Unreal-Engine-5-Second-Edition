@@ -105,8 +105,7 @@ void AMultiplayerFPSGameModeBase::OnKill(AController* KillerController, AControl
 		if (KillerFPSController != nullptr && VictimController != nullptr && VictimController->PlayerState != nullptr)
 		{
 			KillerFPSController->
-			ClientNotifyKill(VictimController->PlayerState->
-			GetPlayerName());
+			ClientNotifyKill(VictimController->PlayerState->GetPlayerName());
 		}
 	}
 
