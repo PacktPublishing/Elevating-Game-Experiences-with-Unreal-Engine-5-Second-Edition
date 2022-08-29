@@ -54,6 +54,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 <hr>
 
 You can download videos for Chapters 1, 3, 4-9, and 16-18 which will help to understand the chapters better. [Click here to download it](https://packt.link/1GnAS).
+You can download the Activities Solution file from [here](https://packt.link/6y0Pa)
 
 
 ### Related products <Other books you may enjoy>
