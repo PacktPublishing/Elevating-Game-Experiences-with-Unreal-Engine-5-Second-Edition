@@ -78,3 +78,7 @@ comes from a gaming background and has been extensively working on Unreal Engine
 
 ## Other books by the authors
 * [Game Development Projects with Unreal Engine](https://www.packtpub.com/product/game-development-projects-with-unreal-engine/9781800209220?utm_source=github&utm_medium=repository&utm_campaign=9781800209220)
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781803239866">https://packt.link/free-ebook/9781803239866 </a> </p>
